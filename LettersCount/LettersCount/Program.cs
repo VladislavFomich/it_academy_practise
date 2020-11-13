@@ -18,7 +18,7 @@ namespace LettersCount
                 if (word[i] == 'a' | word[i] == 'а')
                     letter++;
             }
-            Console.WriteLine(letter);
+            Console.WriteLine($"Количество букв 'а' в веденном вам слове - {letter}");
         }
     }
 }
