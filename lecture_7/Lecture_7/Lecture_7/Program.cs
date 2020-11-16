@@ -14,16 +14,21 @@ namespace Lecture_7
         }
         static void task1()
         {
-           object[] emptyArray = new object[] { };
+           string[] emptyArray = new string[0];
         }
         static void task2()
         {
-           string[] myArray = new string[] {"32","A","Hello"};
+            int num = 32;
+            char symbal = 'A';
+            string word = "Hello";
+           object[] myArray = new object[3] {"32","A","Hello"};
+
             for (int i = 0; i < myArray.Length; i++)
             {
                 Console.WriteLine(myArray[i]);
             }
-           
+            
+          
         }
         static void task3()
         {
