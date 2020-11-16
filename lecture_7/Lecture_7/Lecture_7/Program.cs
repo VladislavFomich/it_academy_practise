@@ -18,17 +18,27 @@ namespace Lecture_7
         }
         static void task2()
         {
-            int num = 32;
+            int num = 32;   
             char symbal = 'A';
             string word = "Hello";
-           object[] myArray = new object[3] {"32","A","Hello"};
+            object[] myArray = new object[3] { num, symbal, word };
+            
+            for (int i = 0; i < myArray.Length; i++)
+            {
+                Console.WriteLine($"Ваш массив: {myArray[i]}");
+            }
+
+            int num2 = num + 10;
+            myArray[0] = num2;
+            string message = word + ", guys!";
+            myArray[2] = message;
 
             for (int i = 0; i < myArray.Length; i++)
             {
-                Console.WriteLine(myArray[i]);
+                Console.WriteLine($"Ваш новый массив: {myArray[i]}");
             }
-            
-          
+
+
         }
         static void task3()
         {
