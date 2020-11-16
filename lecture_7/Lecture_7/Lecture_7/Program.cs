@@ -58,7 +58,8 @@ namespace Lecture_7
         {
             short num = 1;
             object obj = num;
-            short num2 = (sbyte)num;
+            string str = "23";
+            sbyte num2 = Convert.ToSByte(str);
         }
     }
 
