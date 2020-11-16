@@ -47,7 +47,9 @@ namespace Lecture_7
         }
         static void task4()
         {
-
+            short num = 1;
+            object obj = num;
+            short num2 = (sbyte)num;
         }
     }
 
