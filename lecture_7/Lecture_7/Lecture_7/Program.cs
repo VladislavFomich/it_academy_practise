@@ -38,7 +38,6 @@ namespace Lecture_7
                 Console.WriteLine($"Ваш новый массив: {myArray[i]}");
             }
 
-
         }
         static void task3()
         {
