@@ -24,8 +24,8 @@ namespace Motorcircle
             HondaEngine.volume = Convert.ToInt32(Console.ReadLine());
             HondaEngine.power = Convert.ToInt32(Console.ReadLine());
 
-            Console.WriteLine($"Мотоцикл 1 - модель{Minsk.model}, проивз");
-            Console.WriteLine();
+            Console.WriteLine($"Мотоцикл 1 - модель{Minsk.model}, производитель - {Minsk.manufacturer}, дата - {Minsk.yearRelease}, пробег - {Minsk.mileage}, обьем двигателя - {MinskEngine.volume}, мощность - {MinskEngine.power}");
+            Console.WriteLine($"Мотоцикл 2 - модель{Honda.model}, производитель - {Honda.manufacturer}, дата - {Honda.yearRelease}, пробег - {Honda.mileage}, обьем двигателя - {HondaEngine.volume}, мощность - {HondaEngine.power}");
         }
     }
 }
