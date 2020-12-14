@@ -9,10 +9,10 @@ namespace lecture14.Task2.Boxing
         {
             ArrayList arrayList = new ArrayList();
             
-            arrayList.Add(45);//int
-            arrayList.Add(true);//bool
-            arrayList.Add("Hello!");//string
-            arrayList.Add(23.45);//double
+            arrayList.Add(45);//int  boxing
+            arrayList.Add(true);//bool  boxing
+            arrayList.Add("Hello!");//string false
+            arrayList.Add(23.45);//double boxing
 
         }
     }
