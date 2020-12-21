@@ -6,9 +6,7 @@ namespace lecture_15_task_1
     {
         static void Main(string[] args)
         {
-            UniqueItem uniqueItem = new UniqueItem();
-            uniqueItem.counter();
-            
+                    
         }
     }
 }

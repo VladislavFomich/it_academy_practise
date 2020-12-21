@@ -6,13 +6,13 @@ namespace lecture_15_task_1
 {
     class UniqueItem
     {
-      public static int id;
+        static int id = Convert.ToInt32(Console.ReadLine());
+        int counterId = 0;
 
-        public void counter()
+        UniqueItem()
         {
-           id = Convert.ToInt32(Console.ReadLine());
-           id++;
-            Console.WriteLine(id);
+            id++;
+            counterId = id;
         }
     }
 }
